@@ -5,6 +5,8 @@ body {
   height: 100vh; /* Cambiato da 80vh per occupare tutta la finestra */
   color: white;
   font-family: 'Bubblegum Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 
