@@ -4,6 +4,28 @@ body {
   background-position: center;
   height: 100vh; /* Cambiato da 80vh per occupare tutta la finestra */
   color: white;
+  font-family: 'Bubblegum Sans', sans-serif;
+}
+
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 1rem;
+  font-size: 3rem;
+}
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+h3 {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  
 }
 
 header {
@@ -31,6 +53,10 @@ nav button {
   cursor: pointer;
   outline: none;
   border-radius: 0;
+}
+
+.nav-btn.active {
+  border-bottom: 2px solid white;
 }
 
 #content {
@@ -84,12 +110,14 @@ nav button {
 
 #about {
   border: black solid 1px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.911);
   display: grid;
   grid-template-columns: 1fr clamp( 10vw , 25vw , 50vw);
   grid-template-rows: 1fr 1fr 1fr;
   
 }
+
+
 
 #about img {
   height: 600px;

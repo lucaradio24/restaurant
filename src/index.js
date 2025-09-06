@@ -25,6 +25,8 @@ const navBtn = document.querySelectorAll('.nav-btn');
 
 navBtn.forEach(btn => {
     btn.addEventListener('click', () => {
+        navBtn.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active')
         content.innerHTML = '';
         if (btn.dataset.tab === 'home'){
             loadPage()
@@ -35,5 +37,10 @@ navBtn.forEach(btn => {
         }
     })
 })
+
+const homeBtn = document.querySelector('.nav-btn[data-tab="home"');
+if (homeBtn) {
+    homeBtn.classList.add('active')
+}
 
 loadPage()
