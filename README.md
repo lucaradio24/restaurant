@@ -1,4 +1,5 @@
 Smashburgeria Napoletana
+
 A dynamic single-page website for a fictional restaurant called "Smashburgeria Napoletana," showcasing smashburgers with a Neapolitan twist. Built with vanilla JavaScript, HTML, and CSS, bundled with Webpack.
 
 Features:
